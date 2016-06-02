@@ -1,0 +1,44 @@
+body{
+	background: url(../images/background3.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Slabo 27px', serif;
+}
+
+h1{
+/*	color:#2C4F7B;;*/
+}
+
+.panel-default{
+	/*opacity: 0.9;*/
+	margin-top: 90px;
+	color:#2C4F7B;
+}
+
+.panel-heading{
+	font-size: 40px;
+	border-style: none;
+	border-width:none;
+	text-align: center;
+	color: #2C4F7B;
+}
+
+.panel-body{
+	height:450px;
+}
+
+#instructions{
+	margin-top:75px;
+	margin-left: 285px;
+
+}
+
+#startButton{
+	width:245px;
+	height:40px;
+	margin-top:90px;
+	margin-left: 285px;
+	background-color: #FF9900;
+	color:black;
+	border: none;
+}
