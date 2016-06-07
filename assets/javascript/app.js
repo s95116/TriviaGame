@@ -55,6 +55,7 @@ $(document).ready(function() {
 
 
 	  			$('#c1').on('click', function() {
+	  				var self = this;
 	  				alert('You clicked answer one');
 
 	  				if (0 === questions[0].answer) {
@@ -66,7 +67,7 @@ $(document).ready(function() {
 	  					questionIncorrect++;
 	  					console.log('In-correct answer');
 	  				}
-				$(this).prop('disabled', true);
+				$(self).prop('disabled', true);
 	  			});
 
 
